@@ -5,6 +5,9 @@ import aiohttp
 from io import BytesIO
 
 years = ["2022"]
+months = ["9"]
+days = [str(i) for i in range(10,18)]
+
 dates = [(str(i), "9") for i in range(10,11)]
 
 
