@@ -8,7 +8,7 @@ years = ["2022"]
 months = ["9"]
 days = [str(i) for i in range(10,18)]
 
-dates = [(str(i), "9") for i in range(10,11)]
+dates = [(str(i), "10") for i in range(15,16)]
 
 
 async def get_sql(day: str, month: str, year: str, cs: aiohttp.ClientSession) -> None:

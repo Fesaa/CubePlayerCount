@@ -2,3 +2,4 @@ venv/
 sql/
 output/
 sql_old/
+.DS_Store

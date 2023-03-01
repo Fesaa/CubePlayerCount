@@ -70,10 +70,12 @@ func main() {
 
 		db, err := sql.Open("sqlite3", "sql/"+file)
 		if err != nil {
+			fmt.Println(file)
 			log.Fatal(err)
 		}
 		rows, err := db.Query("SELECT timestamp, playerCount FROM 'pings' WHERE ip = \"play.cubecraft.net\" AND playerCount NOT NULL;")
 		if err != nil {
+			fmt.Println(file)
 			log.Fatal(err)
 		}
 

@@ -4,8 +4,8 @@ import asyncio
 import aiohttp
 from io import BytesIO
 
-years = ["2022"]
-dates = [(str(i), "9") for i in range(10,11)]
+years = ["2020", "2021", "2022"]
+dates = [(str(i), "8") for i in range(14,21)]
 
 
 async def get_sql(day: str, month: str, year: str, cs: aiohttp.ClientSession) -> None:
